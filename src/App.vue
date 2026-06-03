@@ -146,9 +146,21 @@ function toggleMobile() {
   </main>
 
   <!-- ── Footer ── -->
+  <!-- ── Footer (Modificat amb enllaç oficial i efecte hover) ── -->
   <footer class="bg-zinc-950 border-t border-zinc-800 py-8 px-4">
     <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 text-zinc-500 text-xs">
-      <p>© {{ new Date().getFullYear() }} {{ $t('footerGlobal.copy') }}</p>
+      <p>
+        © {{ new Date().getFullYear() }} 
+        <a 
+          href="https://www.nintendo.co.jp/csr/en-us/esg_data/index.html?active-topics=topics01" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          class="hover:text-nintendo hover:underline transition-all duration-200 ml-1 inline-flex items-center gap-1"
+        >
+          {{ $t('footerGlobal.copy') }}
+          <span class="text-[10px] bg-zinc-900 border border-zinc-800 text-zinc-400 px-1.5 py-0.5 rounded ml-1 group-hover:border-zinc-700">Font Oficial ↗</span>
+        </a>
+      </p>
       <p class="flex items-center gap-1.5">
         <Leaf :size="12" class="text-nintendo" />
         {{ $t('footerGlobal.text') }}
