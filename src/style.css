@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Barra de desplaçament estilitzada estil zinc-fosc */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #09090b; /* Equival a bg-zinc-950 */
+}
+::-webkit-scrollbar-thumb {
+  background: #27272a; /* Equival a bg-zinc-800 */
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3f3f46; /* Equival a bg-zinc-700 */
+}
