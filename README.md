@@ -9,11 +9,11 @@ L'aplicació analitza de forma detallada l'impacte ambiental, els riscos climàt
 ## Característiques Principals
 
 - **Dashboard d'Indicadors Clau:** Resum de consum energètic global, ràtio d'energies renovables i emissions absolutes.
-- **Anàlisi de Riscos Climàtics (TCFD):** Avaluació de riscos físics, de transició i l'impacte específic de les infraestructures digitals (CPDs) i la Intel·ligència Artificial en el sector tecnològic.
-- **Auditoria de la Petjada de Carboni:** Desglossament interactiu basat en la teoria dels tres abasts (Scope 1, 2 i 3) del protocol GHG.
-- **Indicadors ASG (ESG):** Tauler estructurat amb mètriques Ambientals (consum hídric), Socials i de Governança ètica.
+- **Anàlisi de Riscos Climàtics :** Avaluació de riscos físics, de transició i l'impacte específic de les infraestructures digitals i la Intel·ligència Artificial en el sector tecnològic.
+- **Auditoria de la Petjada de Carboni:** Desglossament interactiu basat en la teoria dels tres abasts (Scope 1, 2 i 3).
+- **Indicadors ASG (ESG):** Tauler estructurat amb mètriques Ambientals (consum hídric), Socials i de Governança.
 - **Sistema Multilingüe Complet:** Traducció reactiva en temps real entre Català (`ca`) i Castellà (`es`) mitjançant `vue-i18n`.
-- **Interfície Avançada:** Disseny completament fosc (Dark Mode) adaptat amb components modals, transicions d'estat dinàmiques i gràfics completament interactius.
+- **Interfície Avançada:** Disseny completament fosc adaptat amb components modals, transicions d'estat dinàmiques i gràfics completament interactius.
 
 ---
 
@@ -24,7 +24,7 @@ L'aplicació analitza de forma detallada l'impacte ambiental, els riscos climàt
 - **Llibreria d'Estils:** Tailwind CSS (Utilitzant variables de color corporatives)
 - **Gràfics Dinàmics:** Chart.js + `vue-chartjs` (Gràfics de Barres, Doughnut i Radar)
 - **Gestió de Rutes:** Vue Router
-- **Internacionalització (i18n):** `vue-i18n` (Versió 9+)
+- **Internacionalització (i18n):** `vue-i18n` 
 - **Llibreria d'Icones:** `lucide-vue-next`
 - **Notificacions:** `vue-toastification`
 
@@ -48,4 +48,4 @@ L'arquitectura del codi s'ha estructurat seguint les bones pràctiques de Vue:
 ## Fonts d'Informació Utilitzades
 
 Totes les mètriques i gràfics exposats en aquest projecte han estat extrets i contrastats a partir de la documentació oficial:
-- [Nintendo Sustainability Report (Official Corporate Website)](https://www.nintendo.co.jp/csr/en/index.html)
+- [Nintendo Sustainability Report (Official Corporate Website)](https://www.nintendo.co.jp/csr/en-us/esg_data/index.html?active-topics=topics01)
